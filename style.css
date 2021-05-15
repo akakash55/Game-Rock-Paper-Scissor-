@@ -1,0 +1,140 @@
+html{
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+body{
+  text-align: center;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+
+.head{
+  width: 100%;
+  height: 10%;
+  padding-top: 35px;
+  padding-bottom: 10px;
+  background-color: #e5dfdf;
+}
+h1{
+  margin-top: 0%;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.1rem;
+}
+.container{
+  position: relative;
+  width: 100%;
+  height:90% ;
+  background-color: #8aae92;
+  padding-top: 50px;
+  box-sizing: border-box;
+}
+.rps{
+	width: 100%;
+	position: absolute;
+	top: 20%; 
+	left: 50%;
+	transform: translateX(-50%);
+}
+.image{
+	width: 150px;
+	height: 150px;
+    margin :10px;
+    border: 3px solid #495464;
+    border-radius: 50%;
+    color: #495464;
+    font-size: 40px;
+    background-color: #f1f3f8;
+    cursor: pointer;
+    outline: none;
+    transition: .2s;
+}
+.image:hover{
+    background-color: #495464;
+    border-color: #f1f3f8;
+    color: #f1f3f8;
+}
+
+.greenbtn{
+	width: 140px;
+	height: 140px;
+    margin :10px;
+    border: 3px solid #9ede73;
+    border-radius: 50%;
+    color: #495464;
+    font-size: 40px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+
+.redbtn{
+	width: 140px;
+	height: 140px;
+    margin :10px;
+    border: 3px solid #ce1212;
+    border-radius: 50%;
+    color: #495464;
+    font-size: 40px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+.blackbtn{
+	width: 140px;
+	height: 140px;
+    margin :10px;
+    border: 3px solid black;
+    border-radius: 50%;
+    color: #495464;
+    font-size: 40px;
+    background-color: white;
+    cursor: pointer;
+    outline: none;
+    transition: .3s;
+}
+
+.sccontainer{
+  position: relative;
+  margin: auto;
+  width: 400px;
+  height: 50px;
+  color: #393e46;
+}
+.score{
+  position: absolute;
+  text-align: center;
+  font-size: 1.5rem;
+  left: 175px;
+}
+.user{
+  position: absolute;
+  left: 40px;
+  top: 5%;
+  font-size: 1.5rem;
+  background-color: #f1f3f8;
+  /* border: 2px solid black; */
+  box-shadow: -1px 1px 1px black;
+}
+.computer{
+  position: absolute;
+  right: 0px;
+  top: 5%;
+  font-size: 1.5rem;
+  background-color: #f1f3f8;
+  box-shadow: 1px 1px 1px black;
+}
+.result{
+  text-align: center;
+  margin-top: 350px;
+  display: none;
+}
+.verdict{
+  font-size: 2rem;
+  font-family: 'Gochi Hand', cursive;
+  color: white;
+}
+
